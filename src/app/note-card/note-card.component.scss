@@ -13,6 +13,7 @@
         
         .x-button {
             opacity:1;
+            transition-delay: 0.3s;
         }
     }
     .note-card-content {
@@ -37,5 +38,5 @@
     border-radius: 4px;
     background:url(../../assets/delete_icon.svg) no-repeat center center;
     opacity:0;
-    transition: opacity 0.2s ease-in
+    transition: opacity 0.2s ease-in;
 }
